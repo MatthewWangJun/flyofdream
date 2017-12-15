@@ -1,0 +1,17 @@
+
+@import '../sass/_mixin.scss';
+@import '../sass/_variables.scss';
+@import '../bower_components/font-awesome/scss/font-awesome';
+@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../sass/buttons/buttons.scss';
+/**
+* Initialization Styles
+*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin : 0; padding : 0; } body, button, input, select, textarea { font-size : $font-size-base; line-height : $line-height-base; font-family : $font-family-serif; color : $text-color; } h1, h2, h3, h4, h5, h6 { font-size : 100%; } address, cite, dfn, em, var { font-style : normal; } code, kbd, pre, samp { font-family : $font-family-monospace; } small { font-size : $font-size-small; } ul, ol { list-style : none; } a { text-decoration : none; } a:hover { text-decoration : none; } sup { vertical-align : text-top; } sub { vertical-align : text-bottom; } legend { color : $black; } fieldset, img { border : 0; } button, input, select, textarea { font-size : 100%; } table { border-collapse : collapse; border-spacing : 0; } button, select { outline : none !important; } html,body,section{ height:100%; }
+@media print {
+    .notprint { display : none; }
+}
+section{
+    background:$gray-lightest;
+}
+

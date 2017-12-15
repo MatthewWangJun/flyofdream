@@ -1,0 +1,581 @@
+[
+  {
+    "id": 1,
+    "name": "首页管理",
+    "data": [
+      {
+        "id": 7,
+        "name": "首页轮播",
+        "items": [
+          {
+            "title": null,
+            "name": "轮播1",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/8523E0C78AAC92F5E786BB4FBA725C6C.jpg",
+            "href": null,
+            "orders_by": 1
+          },
+          {
+            "title": null,
+            "name": "轮播2",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/D32D78C180D362FBED03DD3550A44BBA.png",
+            "href": null,
+            "orders_by": 2
+          },
+          {
+            "title": null,
+            "name": "轮播3",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/CE970728F8C627EAF55701D7F58A6823.jpg",
+            "href": null,
+            "orders_by": 3
+          },
+          {
+            "title": null,
+            "name": "轮播图5",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/C3957617DB0D03EE85FA7D3DC1AA4965.jpg",
+            "href": null,
+            "orders_by": 4
+          },
+          {
+            "title": null,
+            "name": "轮播图4",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/AF5ACAF527933D5C4DAE015EC2DC58AA.jpg",
+            "href": null,
+            "orders_by": 5
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "学习规划",
+        "items": [
+          {
+            "title": null,
+            "name": "学习规划",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/E644C37F4BC6482AB1AA5CFD6739B927.png",
+            "href": null,
+            "orders_by": 0
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "评测图片",
+        "items": [
+          {
+            "title": "全方位测评开启职业之旅",
+            "name": "个人潜质测评",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/CB49C9D591E2505E3E1DB578F8825CED.png",
+            "href": "/evaluation/detail/2",
+            "orders_by": 0
+          },
+          {
+            "title": "全方位测评开启职业之旅",
+            "name": "职业倾向测评",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/C0A1378599B5CCE324D4F74E67961624.png",
+            "href": "/evaluation/detail/1",
+            "orders_by": 1
+          },
+          {
+            "title": "全方位测评开启职业之旅",
+            "name": "专业能力测评",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/630E4DF19983BCEBE33179D4DFE97218.png",
+            "href": "/evaluation",
+            "orders_by": 2
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "权威课程文字",
+        "items": [
+          {
+            "title": null,
+            "name": "权威课程推送助您直达目标",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "精品推荐",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "最新课程",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "更多",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "海量职位",
+        "items": [
+          {
+            "title": "知名企业海量职位虚位以待",
+            "name": "baidu",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/A1134CD74205F4AC3CF9A6F00A205C22.png",
+            "href": null,
+            "orders_by": 1
+          },
+          {
+            "title": "知名企业海量职位虚位以待",
+            "name": "阿里巴巴",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/E5E9EB2A5E8162F45507533E6E1299E8.png",
+            "href": null,
+            "orders_by": 2
+          },
+          {
+            "title": "知名企业海量职位虚位以待",
+            "name": "腾讯",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/90EC766B479E9FCA84045611003B4073.png",
+            "href": null,
+            "orders_by": 3
+          },
+          {
+            "title": "知名企业海量职位虚位以待",
+            "name": "360",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/3BB24E921277F863076855C79AF3DFFC.png",
+            "href": null,
+            "orders_by": 4
+          },
+          {
+            "title": "知名企业海量职位虚位以待",
+            "name": "jd",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/17ABD6F3C54F32D6587CC4EF12D66011.png",
+            "href": null,
+            "orders_by": 5
+          },
+          {
+            "title": "知名企业海量职位虚位以待",
+            "name": "hw",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/C8AAF7B0ED2DD5B5E47B35FB703F931A.png",
+            "href": null,
+            "orders_by": 6
+          },
+          {
+            "title": "知名企业海量职位虚位以待",
+            "name": "zte",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/0890E93CBACE026C78F2E34718D398BC.png",
+            "href": null,
+            "orders_by": 7
+          },
+          {
+            "title": "知名企业海量职位虚位以待",
+            "name": "yd",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/844032AF44949F4821FB5790FDCF3789.png",
+            "href": null,
+            "orders_by": 8
+          },
+          {
+            "title": "知名企业海量职位虚位以待",
+            "name": "lt",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/B1A5DBE41195CF0B22A079CFFF2A2A1F.png",
+            "href": null,
+            "orders_by": 9
+          },
+          {
+            "title": "知名企业海量职位虚位以待",
+            "name": "dx",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/6C233EBFB03AA5E3CADD13FC366FD714.png",
+            "href": null,
+            "orders_by": 10
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "培训基地",
+        "items": [
+          {
+            "title": "全国几十所培训基地全力支撑",
+            "name": "完善的实训设备",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/058332051B8726583119A65E949EE35D.png",
+            "href": null,
+            "orders_by": 1
+          },
+          {
+            "title": "全国几十所培训基地全力支撑",
+            "name": "全国多所鼎利学院全力提供教学支持",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/76F73F0C00ADA68EC01816A862A94E3B.png",
+            "href": null,
+            "orders_by": 2
+          },
+          {
+            "title": "全国几十所培训基地全力支撑",
+            "name": "先进的双师培训模式现代化教学环境",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/F663D27F88BAD773565EA3403AED3DF8.png",
+            "href": "",
+            "orders_by": 3
+          },
+          {
+            "title": "全国几十所培训基地全力支撑",
+            "name": "良好的学习环境",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/EC5128A6938B2DC577F3A8FA2D44EB66.png",
+            "href": "2",
+            "orders_by": 4
+          },
+          {
+            "title": "全国几十所培训基地全力支撑",
+            "name": "课间休息角",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/3619370BDEE12CDD4876790062465425.png",
+            "href": null,
+            "orders_by": 5
+          },
+          {
+            "title": "全国几十所培训基地全力支撑",
+            "name": "交流及读书空间",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/BB3E08846A2B27488D1505068F599454.png",
+            "href": null,
+            "orders_by": 6
+          },
+          {
+            "title": "全国几十所培训基地全力支撑",
+            "name": "优雅的就餐环境",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/47ABD96E0398639A9F946B9986658D2D.png",
+            "href": null,
+            "orders_by": 7
+          },
+          {
+            "title": "全国几十所培训基地全力支撑",
+            "name": "课余健身娱乐设备齐全",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/95D75C290F241ED4A7A5ECDB9976345A.png",
+            "href": null,
+            "orders_by": 8
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "友情链接文字",
+        "items": [
+          {
+            "title": null,
+            "name": "友情链接",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "世纪鼎利",
+            "pic_url": null,
+            "href": "http://www.dingli.com/",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "关于我们",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "联系我们",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "加入我们",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "帮助中心",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "商务合作",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "鼎利学院",
+            "pic_url": null,
+            "href": "http://www.dingli.com/",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "Copyright © 2014-2015  鼎利职通车",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "dlztc.com All Rights Reserved  |  粤ICP备15108667号",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "友情链接图片",
+        "items": [
+          {
+            "title": null,
+            "name": "logo1",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/FAABE793E02E5D3D28AAFF828C65728C.png",
+            "href": null,
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "erweima",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/68ABF06F60CAA56E25C645041A09B860.png",
+            "href": null,
+            "orders_by": 1
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "首页logo",
+        "items": [
+          {
+            "title": null,
+            "name": "首页logo",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/63A4D846DB0749DA933E63C850E634D4.png",
+            "href": null,
+            "orders_by": 10000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "测评管理",
+    "data": [
+      {
+        "id": 16,
+        "name": "测评首图",
+        "items": [
+          {
+            "title": null,
+            "name": "评测首图",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/5FF547258BC3A119313A025D7A93CBA6.jpg",
+            "href": null,
+            "orders_by": 1
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "测评详情页图片",
+        "items": [
+          {
+            "title": null,
+            "name": "评测详情首图",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/57F25B6D0A95EDC5E1CA4FA71CD5A866.png",
+            "href": null,
+            "orders_by": 1
+          },
+          {
+            "title": null,
+            "name": "职业倾向",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/8060DABB6E216D3261A1F06B106F67A7.png",
+            "href": null,
+            "orders_by": 2
+          },
+          {
+            "title": null,
+            "name": "个人倾向",
+            "pic_url": "http://7xpscc.com1.z0.glb.clouddn.com/809BE060A9CFA9A9A7D5A69EA1DC2B49.png",
+            "href": null,
+            "orders_by": 3
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "非首页友情链接",
+        "items": [
+          {
+            "title": null,
+            "name": "友情链接",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "世纪鼎利",
+            "pic_url": null,
+            "href": "http://www.dingli.com/",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "关于我们",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "联系我们",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "加入我们",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "帮助中心",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "商务合作",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "鼎利学院",
+            "pic_url": null,
+            "href": "http://www.dingli.com/",
+            "orders_by": 0
+          },
+          {
+            "title": null,
+            "name": "Copyright © 2014-2015  鼎利职通车 dlztc.com All Rights Reserved  |  粤ICP备15108667号",
+            "pic_url": null,
+            "href": "",
+            "orders_by": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "课程管理",
+    "data": [
+      {
+        "id": 23,
+        "name": "课程轮播图",
+        "items": [
+          {
+            "title": null,
+            "name": "课程轮播2",
+            "pic_url": "http://172.16.23.58:9095/firstpage/head/20160128/080DA08189D40753FD20A2D32DEB680A.jpg",
+            "href": null,
+            "orders_by": 1
+          },
+          {
+            "title": null,
+            "name": "课程轮播1",
+            "pic_url": "http://172.16.23.58:9095/firstpage/head/20160128/0DB818FCA567DDFF381104B169CDD4DF.jpg",
+            "href": null,
+            "orders_by": 2
+          },
+          {
+            "title": null,
+            "name": "课程轮播3",
+            "pic_url": "http://172.16.23.58:9095/firstpage/head/20160128/41CBC9C97B10A670BB135BC7735D1762.jpg",
+            "href": null,
+            "orders_by": 3
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "课程详情页图片",
+        "items": [
+          {
+            "title": null,
+            "name": "课程详情页",
+            "pic_url": "http://172.16.23.58:9095/firstpage/head/20160128/C03CE43C164D94DE7EEC2A61EC9C9F1C.png",
+            "href": null,
+            "orders_by": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "社区管理",
+    "data": []
+  },
+  {
+    "id": 27,
+    "name": "个人中心",
+    "data": [
+      {
+        "id": 29,
+        "name": "个人中心背景",
+        "items": [
+          {
+            "title": null,
+            "name": "个人中心背景",
+            "pic_url": "http://172.16.23.58:9095/firstpage/head/20160129/75C06BC2054E3E07DDF7E76C493B5E34.jpg",
+            "href": null,
+            "orders_by": 1
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "个人中心测评",
+        "items": [
+          {
+            "title": null,
+            "name": "个人中心测评",
+            "pic_url": "http://172.16.23.58:9095/firstpage/head/20160129/664B76245287A5CBE06F238766090D23.jpg",
+            "href": null,
+            "orders_by": 1
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "个人中心课程",
+        "items": [
+          {
+            "title": null,
+            "name": "个人中心课程",
+            "pic_url": "http://172.16.23.58:9095/firstpage/head/20160129/947CDA9943B613B65E0CD1B60CF93168.jpg",
+            "href": null,
+            "orders_by": 1
+          }
+        ]
+      }
+    ]
+  }
+]

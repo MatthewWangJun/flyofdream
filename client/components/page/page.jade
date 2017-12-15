@@ -1,0 +1,16 @@
+.page_ctrl.clearfix
+    ul.page_inner.clearfix
+        li.page_prev(ng-class='{disabled: currentPage == 1}', ng-click='prev()')
+            span(aria-hidden='true')
+                img(src='assets/images/page_arrow_left.png')
+        li.page_count(ng-repeat="page in pages track by $index",repeat-finish='repeatFinish()',ng-class='{active:currentPage == page}',ng-click="loadPage(page)",ng-bind='page')
+            span.sr-only(current)
+        li.page_next(ng-class='{disabled: currentPage ==totalPage}',ng-click='next()')
+            span(aria-hidden='true')
+                img(src='assets/images/page_arrow_right.png')
+    .page_select.clearfix
+        p 第
+        input(type='type',maxlength='3',ng-model='pageNum',ng-change='onlyNumber(pageNum)')
+        p 页
+        div(ng-click='pageSelect(pageNum)') 跳转
+

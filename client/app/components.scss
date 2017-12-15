@@ -1,0 +1,14 @@
+
+/**
+common scss
+ */
+@import '../sass/_mixin.scss';
+@import '../sass/_variables.scss';
+
+/**
+所有components的scss都放在这里
+ */
+//@import '../components/azxcommon/azxcommon.scss';
+//@import 'http://oli56k5b0.bkt.clouddn.com/azxcommon.scss';
+@import '../components/signin/signinmodel.scss';
+@import '../components/ng-jcrop/css/jquery.Jcrop.css';

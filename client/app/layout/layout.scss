@@ -1,0 +1,195 @@
+#layout {
+  height: auto;
+  min-height: 100%;
+  min-width: 1000px;
+  background: $layout-bg;
+}
+
+#pagecontent {
+  width: 100%;
+  .page-content {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+}
+
+$portlet-border: 0;
+.portlet {
+  box-shadow: 0 2px 3px 2px rgba(0, 0, 0, .03);
+}
+
+.portlet {
+  margin-top: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  border-radius: $portlet-border;
+  background-color: #fff;
+  .portlet-title {
+    padding: 0;
+    min-height: 45px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    -webkit-border-radius: $portlet-border $portlet-border 0 0;
+    -moz-border-radius: $portlet-border $portlet-border 0 0;
+    -ms-border-radius: $portlet-border $portlet-border 0 0;
+    -o-border-radius: $portlet-border $portlet-border 0 0;
+    border-radius: $portlet-border $portlet-border 0 0;
+    position: relative;
+    .ribbon {
+      position: absolute;
+      left: -10px;
+      top: 0;
+      z-index: 10;
+    }
+    .actions {
+      float: right;
+      padding: 10px 10px 0;
+    }
+  }
+  .portlet-body {
+    padding-top: 8px;
+    clear: both;
+    -webkit-border-radius: 0 0 $portlet-border $portlet-border;
+    -moz-border-radius: 0 0 $portlet-border $portlet-border;
+    -ms-border-radius: 0 0 $portlet-border $portlet-border;
+    -o-border-radius: 0 0 $portlet-border $portlet-border;
+    border-radius: 0 0 $portlet-border $portlet-border;
+  }
+}
+
+//== speace & split
+$speace-size: 5 10 15 20 30;
+@each $size in $speace-size {
+  .speace-#{$size} {
+    padding-left: $size + px;
+    display: inline;
+  }
+  .splite-#{$size} {
+    padding-left: 1px;
+    height: 9px;
+    margin: 0 $size + px;
+    background: $gray-lighter;
+    display: inline-block;
+  }
+}
+
+//== Ribbon
+.ribbon {
+  font-size: 16px;
+  //min-width: 100px;
+  position: relative;
+  background: #ba89b6;
+  color: #fff;
+  text-align: center;
+  padding: 0.3em 2em; /* Adjust to suit */
+}
+
+.ribbon:before {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  /*  border: 1.5em solid #986794; */
+  z-index: -1;
+}
+
+.ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+}
+
+.ribbon .ribbon-content:before {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: #804f7c transparent transparent transparent;
+  bottom: -1em;
+}
+
+.ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+
+//== Alert
+.alert {
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: $border-radius-small;
+  font-size: $font-size-small;
+  color: $text-color;
+  i.fa {
+    margin-right: 15px;
+  }
+}
+
+.alert-info {
+  border-left: 2px solid $blue-soft;
+}
+
+
+//== Caption
+.caption {
+  float: left;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 10px 0;
+  i {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 3px;
+    float: left;
+    display: inline-block;
+    margin-right: 5px;
+    color: #666;
+  }
+  .caption-subject {
+    font-size: 16px;
+    color: $text-color-blue-soft;
+  }
+  .caption-helper {
+    padding: 0;
+    margin: 0 0 0 15px;
+    line-height: 13px;
+    color: #9eacb4;
+    font-size: $font-size-small;
+    font-weight: 400;
+  }
+}
+
+//== Uppercase
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.splie-line {
+  margin: 30px 0;
+  border-bottom: 1px solid $gray-lighter;
+}
+
+//== ngDialog
+.modal-header {
+  padding: 0 0 10px 0;
+}
+
+.modal-body {
+}
+
+.modal-footer {
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+
+.pd50{
+  width:50%;
+  display:inline-block;
+}
+
+
+a:focus {outline: none;}

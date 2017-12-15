@@ -1,0 +1,52 @@
+.mindex-container
+    .header-box
+        .navigation
+            ul
+                li(ui-sref="sindex")
+                    .tab-name 学生端
+                    .keyline(ng-show="indexFn.currentTab=='sindex'")
+                li(ui-sref="tindex")
+                    .tab-name 教师端
+                    .keyline(ng-show="indexFn.currentTab=='tindex'")
+        .logo-box
+            img.logo(src="http://oli56k5b0.bkt.clouddn.com/mobile/banner_icon.png")
+        .topic-box
+            img.topic(src="http://oli56k5b0.bkt.clouddn.com/mobile/xs_banner_wenzi.png")
+        .download-box
+            img.download(src="http://oli56k5b0.bkt.clouddn.com/mobile/btn_download.png" ng-click="indexFn.toDownload()")
+    .body-box
+        .title-box
+            img.title(src="http://oli56k5b0.bkt.clouddn.com/mobile/xs_title01.png")
+        .content-box
+            img.content(src="http://oli56k5b0.bkt.clouddn.com/mobile/xs_img01.png")
+        .split-box
+            img.split(src="http://oli56k5b0.bkt.clouddn.com/mobile/point.png")
+        .title-box
+            img.title(src="http://oli56k5b0.bkt.clouddn.com/mobile/xs_title02.png")
+        .content-box
+            img.content(src="http://oli56k5b0.bkt.clouddn.com/mobile/xs_img02.png")
+        .split-box
+            img.split(src="http://oli56k5b0.bkt.clouddn.com/mobile/point.png")
+        .title-box
+            img.title(src="http://oli56k5b0.bkt.clouddn.com/mobile/xs_title03.png")
+        .content-box
+            img.content(src="http://oli56k5b0.bkt.clouddn.com/mobile/xs_img03.png")
+        .split-box
+            img.split(src="http://oli56k5b0.bkt.clouddn.com/mobile/point.png")
+        .title-box
+            img.title(src="http://oli56k5b0.bkt.clouddn.com/mobile/xs_title04.png")
+        .content-box
+            img.content(src="http://oli56k5b0.bkt.clouddn.com/mobile/xs_img04.png")
+
+        .download-box
+            img.download(src="http://oli56k5b0.bkt.clouddn.com/mobile/btn_download01.png" ng-click="indexFn.toDownload()")
+    .footer-box
+        .logo-box
+            img.logo(src='http://oli56k5b0.bkt.clouddn.com/mobile/footer-logo.png')
+        .split
+        .product-detail
+            .name {{indexFn.product.name}} . {{indexFn.product.version}}
+            .copy-right @2015-2018 aizhixin.com All Right Reserved
+
+
+//http://oli56k5b0.bkt.clouddn.com/mobile/js_title01.png

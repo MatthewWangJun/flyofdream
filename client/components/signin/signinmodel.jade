@@ -1,0 +1,49 @@
+.container.position
+  .modal.fade(id='modal')
+    .modal-dialog
+      .modal-content.siginmodel-container
+        .siginmodel-modal-header
+          button.close(data-dismiss="modal" aria-label="Close" type="button")
+            span(aria-hidden="true") &times;
+          h3.siginmodel-modal-title 会员登录
+        .modal-body
+          p.bg-warning(style="margin-left: 20px;margin-right: 30px;",ng-show='signInError') {{signInError}}
+          form#signInform.form-horizontal(name='signInForm')
+            .siginmodel-modal_user_name
+              label.siginmodel-modal_user_icon(for='username')
+                img(src="assets/images/signin_uname.png" width="100%")
+              input#username.siginmodel-modal_name_input(type='text', placeholder='请输入用户名', name="username", ng-trim='true', ng-keypress='keyPressHandle($event)', required, ng-model='form.username')
+              span.text-danger(ng-show='signInForm.username.$dirty && signInForm.username.$invalid') 请输入正确的手机号码或邮箱
+            .siginmodel-signin_user_password
+              label.siginmodel-modal_upassword_icon(for='password')
+                img(src="assets/images/signin_upassword.png" width="100%")
+              input#password.siginmodel-modal_password_input(type='password', placeholder='请输入密码', name="password", required, ng-keypress='keyPressHandle($event)', ng-model='form.password')
+              span.text-danger(ng-show='signInForm.password.$dirty && signInForm.password.$invalid') 请输入您的登录密码
+            .siginmodel-forget_auto.hide
+              .signin_auto
+                input#signinAuto(type='checkbox')
+                label(for='signinAuto') 自动登陆
+              a.signin_forget(ui-sref='forgotpassword') 忘记密码?
+              .clear
+            .signin_btn
+              button.btn.btn-lg.btn-block(type='button',ng-disabled='signInForm.$invalid || processing', ng-click='signIn()')
+                i.fa.fa-spinner.fa-spin(ng-show='processing')
+                span(ng-show='!processing') 登录
+            .signin_signup.hide
+              a(href='/account/signup',target='_blank') 没有账号？马上注册
+            .third.hide
+              .third_title
+                img(src='assets/images/third_title.png',width='100%')
+              .third_platform
+                .third_icon.third_qq(ng-mouseenter="qqShow=true",ng-mouseleave="qqShow=false" ng-init="qqShow=false")
+                  a(href='#')
+                    img(ng-if="qqShow==false",src='assets/images/signin_third_qq.png',width='100%',alt='QQ')
+                    img(ng-if="qqShow==true",src='assets/images/signin_third_qq_active.png',width='100%',alt='QQ')
+                .third_icon.third_wechat(ng-mouseenter="weShow=true",ng-mouseleave="weShow=false" ng-init="weShow=false")
+                  a(href='#')
+                    img(ng-if="weShow==false",src='assets/images/signin_third_wechat.png',width='100%',alt='QQ')
+                    img(ng-if="weShow==true",src='assets/images/signin_third_wechat_active.png',width='100%',alt='QQ')
+                .third_icon.third_microblog(ng-mouseenter="blogShow=true",ng-mouseleave="blogShow=false" ng-init="blogShow=false")
+                  a(href='#')
+                    img(ng-if="blogShow==false",src='assets/images/signin_third_microblog.png',width='100%',alt='QQ')
+                    img(ng-if="blogShow==true",src='assets/images/signin_third_microblog_active.png',width='100%',alt='QQ')

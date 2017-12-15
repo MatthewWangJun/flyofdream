@@ -1,0 +1,154 @@
+.mindex-container{
+  background: #ffffff;
+  .header-box{
+    background: url("http://oli56k5b0.bkt.clouddn.com/mobile/banner_bg.jpg");
+    @include  px2rem(height,350px,37.5px);
+    .navigation {
+      @include  px2rem(padding-top,20px,37.5px);
+      color: #fff;
+      ul {
+        padding: 0;
+        li {
+          display: inline-block;
+          text-align: center;
+          vertical-align: middle;
+          font-family: $font-family-sans-serif;
+          @include  px2rem(padding-left,20px,37.5px);
+          overflow: hidden;
+          color: #ffffff;
+          .tab-name{
+            @include font-dpr(14px);
+            @include  px2rem(margin-bottom,8px,37.5px);
+          }
+          .keyline {
+            @include  px2rem(height,1px,37.5px);
+            background: #fff;
+            @include  px2rem(width,30px,37.5px);
+
+           // position: relative;
+            margin: 0 auto;
+          }
+        }
+
+      }
+
+    }
+    .logo-box{
+      text-align: center;
+      @include  px2rem(margin-top,32px,37.5px);
+      .logo{
+        @include  px2rem(height,85px,37.5px);
+        @include  px2rem(width,85px,37.5px);
+      }
+    }
+    .topic-box{
+      text-align: center;
+      @include  px2rem(margin-top,32px,37.5px);
+      .topic{
+        @include  px2rem(height,54px,37.5px);
+        @include  px2rem(width,295px,37.5px);
+      }
+    }
+    .download-box{
+      text-align: center;
+      @include  px2rem(margin-top,32px,37.5px);
+      .download{
+        cursor: pointer;
+        @include  px2rem(height,45px,37.5px);
+        @include  px2rem(width,130px,37.5px);
+      }
+    }
+    //@include  px2rem(height,50px,75px);
+    //width: 0;
+    //height: 0;
+    //@include  px2rem(border-left-width,70px,75px);
+    //@include  px2rem(border-top-width,140px,75px);
+    //@include  px2rem(border-right-width,70px ,75px);
+    //@include  px2rem(border-bottom-width,70px ,75px);
+    //border-right-style:solid;
+    //border-right-color: #6bbf20;
+    //border-left-style:solid;
+    //border-left-color: #6bbf20;
+    //border-bottom-style: solid ;
+    //border-bottom-color: transparent;
+    //border-top-style: solid ;
+    //border-top-color: #6bbf20;
+
+  }
+  .body-box{
+    .title-box{
+      text-align: center;
+      @include  px2rem(margin-top,60px,37.5px);
+      @include  px2rem(margin-bottom,40px,37.5px);
+      .title{
+        @include  px2rem(height,58px,37.5px);
+        @include  px2rem(width,250px,37.5px);
+      }
+    }
+    .content-box{
+      text-align: center;
+      .content{
+        @include  px2rem(height,440px,37.5px);
+        @include  px2rem(width,375px,37.5px);
+      }
+    }
+    .split-box{
+      @include  px2rem(margin-top,50px,37.5px);
+      text-align: center;
+      .split{
+        @include  px2rem(height,33px,37.5px);
+        @include  px2rem(width,10px,37.5px);
+      }
+    }
+    .download-box{
+      @include  px2rem(margin-top,50px,37.5px);
+      @include  px2rem(margin-bottom,50px,37.5px);
+      text-align: center;
+      .download{
+        cursor: pointer;
+        @include  px2rem(height,70px,37.5px);
+        @include  px2rem(width,210px,37.5px);
+      }
+    }
+  }
+  .footer-box{
+    @include  px2rem(min-height,36px,37.5px);
+    @include  px2rem(padding-top,8px,37.5px);
+    @include  px2rem(padding-bottom,10px,37.5px);
+    @include  px2rem(padding-left,10px,37.5px);
+    @include  px2rem(padding-right,5px,37.5px);
+    background: #3c3c3c;
+    .logo-box{
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      .logo{
+        @include  px2rem(height,20px,37.5px);
+        @include  px2rem(width,60px,37.5px);
+      }
+    }
+    .split{
+      @include  px2rem(margin-left,10px,37.5px);
+      @include  px2rem(margin-right,10px,37.5px);
+      @include  px2rem(height,20px,37.5px);
+      @include  px2rem(width,1px,37.5px);
+      background: #fff;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .product-detail{
+      display: inline-block;
+      vertical-align: middle;
+      color: #fff;
+      @include font-dpr(9px);
+      .name{
+
+      }
+      .copy-right{
+
+      }
+    }
+
+
+  }
+}

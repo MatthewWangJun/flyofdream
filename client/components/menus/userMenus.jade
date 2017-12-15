@@ -1,0 +1,25 @@
+ul.user-menus
+  li
+    a(ui-sref='user', ng-class='{active: toState.name == "user"}')
+      i.fa.fa-user.fa-fw
+      span 我的测评
+  li
+    a(herf='javascript:void(0);', disabled)
+      i.fa.fa-list-alt.fa-fw
+      span 我的职业
+  li
+    a(ui-sref='userMyCourses', ng-class='{active: toState.name == "userMyCourses"}')
+      i.fa.fa-book.fa-fw
+      span 我的课程
+  li
+    a(ui-sref='userMyForum', ng-class='{active: toState.name == "userMyForum"}')
+      i.fa.fa-paper-plane.fa-fw
+      span 我的社区
+  li
+    a(ui-sref='userDetails', ng-class='{active: toState.name == "userDetails"}')
+      i.fa.fa-file-text.fa-fw
+      span 个人资料
+  li
+    a(ui-sref='userSecurity', , ng-class='{active: toState.name == "userSecurity"}')
+      i.fa.fa-key.fa-fw
+      span 安全设置

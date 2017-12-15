@@ -1,0 +1,16 @@
+client/bower_components
+node_modules
+public
+dist
+coverage
+npm-debug.log
+logs
+local.env.js
+.sass-cache
+.tmp
+.idea
+bower_components
+*.css
+*.map
+*.psd
+*.svg

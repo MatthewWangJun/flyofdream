@@ -1,0 +1,9 @@
+#layout
+    //#pageheader(azx-header data-inverse data-redirect-url='/' data-subnav='subnav')
+    #pageheader(azx-header ng-if="!isShowSchoolHead" data-redirect-url='/userCenter' data-subnav='subnav')
+    azx-school-header(ng-if="isShowSchoolHead")
+    //#pageheader(azx-header data-redirect-url='/userCenter')
+    #pagecontent
+        .page-content(ui-view='content')
+    #pagerfooter(azx-footer data-product='{{product.name}}' data-version='{{product.version}}')
+
