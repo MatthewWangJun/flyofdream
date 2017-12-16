@@ -8,7 +8,7 @@ angular.module('dleduWebApp')
             },
             submit:function () {
                 var _this=this;
-                AccountService.findUser(_this.params).$promise
+                AccountService.login(_this.params).$promise
                     .then(function (data) {
 
 

@@ -38,6 +38,27 @@ UserSchema
             });
         });
     });
+
+// Validate email is not taken
+UserSchema
+    .path('email')
+    .validate(function(value, respond) {
+        var self = this;
+
+        return this.constructor.findOne({ email: value }).exec()
+            .then(function(user) {
+                if (user) {
+                    if (self.id === user.id) {
+                        return respond(true);
+                    }
+                    return respond(false);
+                }
+                return respond(true);
+            })
+            .catch(function(err) {
+                throw err;
+            });
+    }, '此邮箱已被注册！');
 UserSchema.methods = {
     /**
      * Authenticate - check if the passwords are the same

@@ -3,12 +3,12 @@
 angular.module('dleduWebService')
   .factory('AccountService', function ($resource) {
     return {
-        saveUser: function (params) {
-            var user = $resource('api/account/saveUser');
+        register: function (params) {
+            var user = $resource('api/account/register');
             return user.save(params);
         },
-        findUser:function (params) {
-            var user = $resource('api/login');
+        login:function (params) {
+            var user = $resource('api/account/login');
             return user.save(params);
         }
     }

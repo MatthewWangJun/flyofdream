@@ -2,11 +2,13 @@
 
 var express = require('express');
 var controller = require('./account.controller');
-
+var auth=require('../../middleware/auth');
 var router = express.Router();
 
 
-router.post('/saveUser', controller.saveUser);
+router.post('/register',controller.register);
+router.post('/login',controller.login);
+router.get('/logout',controller.logout);
 
 
 

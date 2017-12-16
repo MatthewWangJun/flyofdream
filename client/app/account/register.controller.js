@@ -8,13 +8,13 @@ angular.module('dleduWebApp')
             },
             submit:function () {
                 var _this=this;
-                AccountService.saveUser(_this.params).$promise
+                AccountService.register(_this.params).$promise
                     .then(function (data) {
 
-
+                        console.log(data)
                     })
                     .catch(function (error) {
-                        //messageService.openMsg("班级添加失败")
+                        console.log(error);
                     })
             }
         }

@@ -13,11 +13,11 @@ module.exports = {
     IO_API: 'http://iodev.aizhixin.com',
 
     //redis
-    SESSION_REDIS_HOST: '172.16.23.30',
+    SESSION_REDIS_HOST: 'localhost',
     SESSION_REDIS_PORT  : 6379,
     SESSION_REDIS_PASS: '',
     SESSION_REDIS_DB    : 0,
-    SESSION_REDIS_PREFIX: 'aizhixin_frontend_session_dev:',
+    SESSION_REDIS_PREFIX: 'flyofdream:',
 
     SESSION_DOMAIN:'localhost',
     //debug
