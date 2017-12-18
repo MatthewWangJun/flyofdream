@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('dleduWebApp')
+angular.module('FlyWebApp')
     .config(function ($stateProvider) {
         $stateProvider
             .state('sindex', {

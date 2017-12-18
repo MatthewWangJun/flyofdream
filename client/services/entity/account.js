@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('dleduWebService')
+angular.module('FlyWebApp')
   .factory('AccountService', function ($resource) {
     return {
         register: function (params) {

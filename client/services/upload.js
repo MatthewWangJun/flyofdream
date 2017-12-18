@@ -3,7 +3,7 @@
  */
 'use strict';
 
-angular.module('dleduWebService')
+angular.module('FlyWebApp')
   .factory('UploadService', function ($http, $q,$resource, Upload) {
     var qiniuBaseLinkUrl = 'http://7xpscc.com1.z0.glb.clouddn.com/';
     var qiniuUploadUrl = 'http://upload.qiniu.com/';

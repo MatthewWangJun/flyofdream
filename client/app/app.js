@@ -1,14 +1,13 @@
 'use strict';
 
-angular.module('dleduWebApp', [
+angular.module('FlyWebApp', [
     'ngSanitize',
     'ngResource',
     'ui.router',
     'ngAnimate',
     'ui.bootstrap',
-    'LocalStorageModule',
-    'dleduWebAppComponents',
-    'dleduWebService',
+    //'dleduWebAppComponents',
+    'FlyWebApp.service',
     'dlFilters',
     'ngDialog',
     'azx.common'
@@ -102,17 +101,6 @@ angular.module('dleduWebApp', [
         $locationProvider.html5Mode(true);
     }])
     .run(function ($state, $rootScope, AuthService, $window) {
-        //判断是否学校域名用户
-        var _tempArr = $window.location.hostname.replace('www.','').split(".");
-        if(_tempArr.length == 3||_tempArr.length == 4){
-            if(_tempArr[0]=="dledutest"||_tempArr[0]=="dledudev"){
-                $rootScope.isShowSchoolHead = false;
-            }else {
-                $rootScope.isShowSchoolHead = true;
-            }
-        }else{
-            $rootScope.isShowSchoolHead = false;
-        }
         //站内页面的访问权限验证
         $rootScope.$on("$stateChangeStart", function (evt, toState, toParams, fromState, fromParams) {
             if (toState.access.requiredLogin && !AuthService.authorize()) {

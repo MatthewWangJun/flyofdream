@@ -3,7 +3,7 @@
  */
 'use strict';
 
-angular.module('dleduWebApp')
+angular.module('FlyWebApp')
     .controller('LayoutCtrl', function ($scope,CommonService) {
         $scope.subnav = CommonService.subnav;
         $scope.product = CommonService.product;

@@ -1,5 +1,5 @@
 'use strict';
 
-angular.module('dleduWebService',[
+angular.module('FlyWebApp.service',[
   'LocalStorageModule'
 ]);

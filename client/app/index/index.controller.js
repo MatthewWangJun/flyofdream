@@ -1,5 +1,5 @@
 'use strict';
-angular.module('dleduWebApp')
+angular.module('FlyWebApp')
     .controller('IndexCtrl', function ($scope,CommonService,$state,$window) {
         console.log(CommonService.browser.versions);
         console.log($state);

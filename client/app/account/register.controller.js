@@ -1,5 +1,5 @@
 'use strict';
-angular.module('dleduWebApp')
+angular.module('FlyWebApp')
     .controller('RegisterCtrl', function ($scope,AccountService,$state) {
         $scope.RegisterFn={
             params:{

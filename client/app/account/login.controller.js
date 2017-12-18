@@ -1,6 +1,6 @@
 'use strict';
-angular.module('dleduWebApp')
-    .controller('LoginCtrl', function ($scope,AccountService,$state,$window) {
+angular.module('FlyWebApp')
+    .controller('LoginCtrl', function ($scope,AccountService,$state,AuthService) {
         $scope.LoginFn={
             params:{
                 email:"",
@@ -8,7 +8,7 @@ angular.module('dleduWebApp')
             },
             submit:function () {
                 var _this=this;
-                AccountService.login(_this.params).$promise
+                AuthService.login(_this.params).$promise
                     .then(function (data) {
 
 
