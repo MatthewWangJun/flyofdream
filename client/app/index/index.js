@@ -3,24 +3,15 @@
 angular.module('FlyWebApp')
     .config(function ($stateProvider) {
         $stateProvider
-            .state('sindex', {
+            .state('index', {
                 url   : '/',
                 access: {requiredLogin: false},
                 views : {
                     'root': {
-                        templateUrl: 'app/index/sindex.html',
+                        templateUrl: 'app/index/index.html',
                         controller : 'IndexCtrl'
                     }
                 }
             })
-            .state('tindex', {
-                url   : '/tindex',
-                access: {requiredLogin: false},
-                views : {
-                    'root': {
-                        templateUrl: 'app/index/tindex.html',
-                        controller : 'IndexCtrl'
-                    }
-                }
-            })
+
     });

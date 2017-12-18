@@ -101,9 +101,9 @@ $link-hover-color:      lighten($link-color, 10%);
 $link-hover-decoration:     none;
 
 
-$font-family-sans-serif:  "PingFang SC", "Hiragino Sans GB W3","Microsoft Yahei", "STHeiti", Helvetica,  Arial, sans-serif;
-$font-family-serif:       "PingFang SC", "SimSun", Helvetica,  Arial, Georgia, "Times New Roman", Times, serif;
-$font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
+$font-family-sans-serif:  'Open Sans', sans-serif;//"PingFang SC", "Hiragino Sans GB W3","Microsoft Yahei", "STHeiti", Helvetica,  Arial, sans-serif;
+$font-family-serif:      'Open Sans', sans-serif;// "PingFang SC", "SimSun", Helvetica,  Arial, Georgia, "Times New Roman", Times, serif;
+$font-family-monospace:   'Open Sans', sans-serif;
 $font-family-base:        $font-family-serif;
 
 $font-size-base:          14px;
