@@ -1,0 +1,192 @@
+// banner
+.banner-w3layouts.about-banner
+    .banner-img1
+    // banner-info
+    .banner-agileinfo
+        .container
+            .w3header
+                // header
+                nav.navbar.navbar-default
+                    .navbar-header
+                        button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                            span.sr-only Toggle navigation
+                            span.icon-bar
+                            span.icon-bar
+                            span.icon-bar
+                        h1
+                            a(href='index.html') Focus
+                    // navbar-header
+                    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                        form.navbar-right.w3ls-search(action='#', method='post')
+                            input(type='search', name='Search', placeholder='Enter your text...', required='')
+                            button.btn.btn-default(type='submit', aria-label='Left Align')
+                                span.glyphicon.glyphicon-search
+                        ul.nav.navbar-nav.navbar-right
+                            li
+                                a(href='index.html') Home
+                            li
+                                a(href='about.html') About
+                            li
+                                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                                    | Pages 
+                                    span.caret
+                                ul.dropdown-menu
+                                    li
+                                        a(href='icons.html') Web Icons
+                                    li
+                                        a(href='codes.html') Short Codes
+                            li
+                                a.active(href='portfolio.html') Portfolio
+                            li
+                                a(href='contact.html') Contact Us
+                        .clearfix
+            // //header
+            .banner-w3text
+                h2 Portfolio
+        // //banner-info
+// //banner
+// portfolio
+.portfolio
+    .container
+        .agileits-title
+            h3 Our Images
+            p
+                | Mauris rutrum turpis eget tincidunt eleifend vestibulum condimentum mollis tellus eu magna laoreet.
+        .gallery_gds
+            ul.simplefilter
+                li.active(data-filter='all') All
+                li(data-filter='1') Category 1
+                li(data-filter='2') Category 2
+                li(data-filter='3') Category 3
+            .filtr-container
+                .col-md-4.col-sm-4.col-xs-6.filtr-item(data-category='1', data-sort='Busy streets')
+                    .agileits-img
+                        a.swipebox(href='../../assets/images/index/g1.jpg', title='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non')
+                            img.img-responsive(src='../../assets/images/index/g1.jpg', alt='')
+                .col-md-4.col-sm-4.col-xs-6.filtr-item(data-category='2, 3', data-sort='Luminous night')
+                    .agileits-img
+                        a.swipebox(href='../../assets/images/index/g2.jpg', title='Duis maximus tortor diam, ac lobortis justo rutrum quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non purus fermentum, eleifend velit non')
+                            img.img-responsive(src='../../assets/images/index/g2.jpg', alt='')
+                .col-md-4.col-sm-4.col-xs-6.filtr-item(data-category='1', data-sort='City wonders')
+                    .agileits-img
+                        a.swipebox(href='../../assets/images/index/g3.jpg', title='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non')
+                            img.img-responsive(src='../../assets/images/index/g3.jpg', alt='')
+                .col-md-4.col-sm-4.col-xs-6.filtr-item(data-category='3', data-sort='Industrial site')
+                    .agileits-img
+                        a.swipebox(href='../../assets/images/index/g4.jpg', title='Praesent non purus fermentum, eleifend velit non Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis.')
+                            img.img-responsive(src='../../assets/images/index/g4.jpg', alt='')
+                .col-md-4.col-sm-4.col-xs-6.filtr-item(data-category='3', data-sort='In production')
+                    .agileits-img
+                        a.swipebox(href='../../assets/images/index/g5.jpg', title='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non')
+                            img.img-responsive(src='../../assets/images/index/g5.jpg', alt='')
+                .col-md-4.col-sm-4.col-xs-6.filtr-item(data-category='2', data-sort='Peaceful lake')
+                    .agileits-img
+                        a.swipebox(href='../../assets/images/index/g6.jpg', title='Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non')
+                            img.img-responsive(src='../../assets/images/index/g6.jpg', alt='')
+                .clearfix
+// //portfolio
+// footer start here
+.agile-footer
+    .container
+        .footer-agileinfo
+            .col-md-4.col-sm-6.footer-wthree-grid
+                h6
+                    a(href='index.html') Focus
+                p
+                    | Aenean vitae metus sit amet purus sodales blandit. Nullam ut dolor eu urna viverra semper. Mauris est odio, laoreet laoreet sapien non, sollicitudin bibendum nulla.
+            .col-md-3.col-sm-6.footer-wthree-grid
+                h3 Navigation
+                ul
+                    li
+                        a(href='index.html') Home
+                    li
+                        a(href='about.html') About
+                    li
+                        a(href='portfolio.html') Portfolio
+                    li
+                        a(href='contact.html') Contact
+            .col-md-2.col-sm-6.footer-wthree-grid
+                h3 Archives
+                ul
+                    li
+                        a(href='single.html') Nov 2016
+                    li
+                        a(href='single.html') Oct 2016
+                    li
+                        a(href='single.html') Sept 2016
+                    li
+                        a(href='single.html') Aug 2016
+            .col-md-3.col-sm-6.footer-wthree-grid.w3social
+                h3 Social Media
+                ul
+                    li
+                        a(href='#')
+                            i.fa.fa-google-plus
+                            |  Google-plus
+                    li
+                        a(href='#')
+                            i.fa.fa-facebook
+                            |  Facebook
+                    li
+                        a(href='#')
+                            i.fa.fa-twitter
+                            |  Twitter
+                    li
+                        a(href='#')
+                            i.fa.fa-dribbble
+                            |  Dribbble
+            .clearfix
+// //footer end here
+// copy rights start here
+.copyw3-agile
+    .container
+        p
+            | © 2017 Focus. All Rights Reserved | Design by  
+            a(href='http://w3layouts.com/', target='_blank') W3layouts
+// //copy right end here
+script(src='../../assets/js/SmoothScroll.min.js')
+script(src='../../assets/js/jquery.filterizr.js')
+script(src='../../assets/js/controls.js')
+// Kick off Filterizr
+script(type='text/javascript').
+    $(function() {
+        //Initialize filterizr with default options
+        $('.filtr-container').filterizr();
+    });
+// swipe box js
+script(src='../../assets/js/jquery.swipebox.min.js')
+script(type='text/javascript').
+    jQuery(function($) {
+        $(".swipebox").swipebox();
+    });
+// //swipe box js
+// start-smooth-scrolling
+script(type='text/javascript', src='../../assets/js/move-top.js')
+script(type='text/javascript', src='../../assets/js/easing.js')
+script(type='text/javascript').
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+    });
+// //end-smooth-scrolling
+// smooth-scrolling-of-move-up
+script(type='text/javascript').
+    $(document).ready(function() {
+        /*
+        var defaults = {
+        containerID: 'toTop', // fading element id
+        containerHoverID: 'toTopHover', // fading element hover id
+        scrollSpeed: 1200,
+        easingType: 'linear'
+        };
+        */
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+// //smooth-scrolling-of-move-up
+//
+  Bootstrap core JavaScript
+  ==================================================
+// Placed at the end of the document so the pages load faster
+script(src='../../assets/js/bootstrap.js')

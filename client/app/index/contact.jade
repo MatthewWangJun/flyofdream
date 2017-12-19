@@ -1,0 +1,169 @@
+// banner
+.banner-w3layouts.about-banner
+    .banner-img1
+    // banner-info
+    .banner-agileinfo
+        .container
+            .w3header
+                // header
+                nav.navbar.navbar-default
+                    .navbar-header
+                        button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                            span.sr-only Toggle navigation
+                            span.icon-bar
+                            span.icon-bar
+                            span.icon-bar
+                        h1
+                            a(href='index.html') Focus
+                    // navbar-header
+                    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                        form.navbar-right.w3ls-search(action='#', method='post')
+                            input(type='search', name='Search', placeholder='Enter your text...', required='')
+                            button.btn.btn-default(type='submit', aria-label='Left Align')
+                                span.glyphicon.glyphicon-search
+                        ul.nav.navbar-nav.navbar-right
+                            li
+                                a(href='index.html') Home
+                            li
+                                a(href='about.html') About
+                            li
+                                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                                    | Pages 
+                                    span.caret
+                                ul.dropdown-menu
+                                    li
+                                        a(href='icons.html') Web Icons
+                                    li
+                                        a(href='codes.html') Short Codes
+                            li
+                                a(href='portfolio.html') Portfolio
+                            li
+                                a.active(href='contact.html') Contact Us
+                        .clearfix
+            // //header
+            .banner-w3text
+                h2 Contact Us
+        // //banner-info
+// //banner
+// contact
+.contact
+    .container
+        .map
+            .agileits-title
+                h3 How To Find Us
+                p
+                    | Mauris rutrum turpis eget tincidunt eleifend vestibulum condimentum mollis tellus eu magna laoreet.
+            iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4376542.827441857!2d133.94238155277205!3d-25.73870281693212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2sin!4v1439377130002', allowfullscreen='')
+        .contact-agileinfo
+            .col-md-7.contact-right
+                form(action='#', method='post')
+                    input(type='text', name='Name', placeholder='Name', required='')
+                    input(type='email', name='Email', placeholder='Email', required='')
+                    input(type='text', name='Telephone', placeholder='Telephone', required='')
+                    textarea(name='Message', placeholder='Message...', required='')
+                    input(type='submit', value='Submit')
+            .col-md-5.contact-left
+                p
+                    | "Lorem Ipsum"is the common name dummy text often used in the design, printing, and type setting industriescommon name dummy text often used in the design, printing, and type setting industries. "
+                ul
+                    li
+                        span.glyphicon.glyphicon-map-marker(aria-hidden='true')
+                        | 							756 globel Place, Australia.
+                    li
+                        span.glyphicon.glyphicon-earphone(aria-hidden='true')
+                        | 							+123 2222 222
+                    li
+                        span.glyphicon.glyphicon-envelope(aria-hidden='true')
+                        a(href='mailto:example@mail.com') mail@example.com
+            .clearfix
+// //contact
+// footer start here
+.agile-footer
+    .container
+        .footer-agileinfo
+            .col-md-4.col-sm-6.footer-wthree-grid
+                h6
+                    a(href='index.html') Focus
+                p
+                    | Aenean vitae metus sit amet purus sodales blandit. Nullam ut dolor eu urna viverra semper. Mauris est odio, laoreet laoreet sapien non, sollicitudin bibendum nulla.
+            .col-md-3.col-sm-6.footer-wthree-grid
+                h3 Navigation
+                ul
+                    li
+                        a(href='index.html') Home
+                    li
+                        a(href='about.html') About
+                    li
+                        a(href='portfolio.html') Portfolio
+                    li
+                        a(href='contact.html') Contact
+            .col-md-2.col-sm-6.footer-wthree-grid
+                h3 Archives
+                ul
+                    li
+                        a(href='single.html') Nov 2016
+                    li
+                        a(href='single.html') Oct 2016
+                    li
+                        a(href='single.html') Sept 2016
+                    li
+                        a(href='single.html') Aug 2016
+            .col-md-3.col-sm-6.footer-wthree-grid.w3social
+                h3 Social Media
+                ul
+                    li
+                        a(href='#')
+                            i.fa.fa-google-plus
+                            |  Google-plus
+                    li
+                        a(href='#')
+                            i.fa.fa-facebook
+                            |  Facebook
+                    li
+                        a(href='#')
+                            i.fa.fa-twitter
+                            |  Twitter
+                    li
+                        a(href='#')
+                            i.fa.fa-dribbble
+                            |  Dribbble
+            .clearfix
+// //footer end here
+// copy rights start here
+.copyw3-agile
+    .container
+        p
+            | © 2017 Focus. All Rights Reserved | Design by  
+            a(href='http://w3layouts.com/', target='_blank') W3layouts
+// //copy right end here
+script(src='../../assets/js/SmoothScroll.min.js')
+// start-smooth-scrolling
+script(type='text/javascript', src='../../assets/js/move-top.js')
+script(type='text/javascript', src='../../assets/js/easing.js')
+script(type='text/javascript').
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+    });
+// //end-smooth-scrolling
+// smooth-scrolling-of-move-up
+script(type='text/javascript').
+    $(document).ready(function() {
+        /*
+        var defaults = {
+        containerID: 'toTop', // fading element id
+        containerHoverID: 'toTopHover', // fading element hover id
+        scrollSpeed: 1200,
+        easingType: 'linear'
+        };
+        */
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+// //smooth-scrolling-of-move-up
+//
+  Bootstrap core JavaScript
+  ==================================================
+// Placed at the end of the document so the pages load faster
+script(src='../../assets/js/bootstrap.js')
