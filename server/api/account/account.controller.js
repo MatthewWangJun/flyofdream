@@ -8,7 +8,8 @@ module.exports = {
     register: function (req, res) {
         var user = new User({
             email: req.body.email,
-            password: req.body.password
+            password: req.body.password,
+            userName: req.body.userName
         });
 
         UserService.saveUser(user).then(users => {
@@ -18,6 +19,7 @@ module.exports = {
         });
     },
     login: function (req, res) {
+        console.log(req.body.email);
         UserService.findUserByEmail(req.body.email)
             .then(user => {
                 if (!user) {

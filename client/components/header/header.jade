@@ -1,0 +1,35 @@
+// header
+nav.navbar.navbar-default
+.navbar-header
+    button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+    h1
+        a(href='index.html') 琪安
+// navbar-header
+#bs-example-navbar-collapse-1.collapse.navbar-collapse
+    form.navbar-right.w3ls-search(action='#', method='post')
+        input(type='search', name='Search', placeholder='Enter your text...', required='')
+        button.btn.btn-default(type='submit', aria-label='Left Align')
+            span.glyphicon.glyphicon-search
+    ul.nav.navbar-nav.navbar-right
+        li
+            a.active(href='index.html') 首页
+        li
+            a(href='about.html') 关于
+        li
+            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                | Pages
+                span.caret
+            ul.dropdown-menu
+                li
+                    a(href='icons.html') Web Icons
+                li
+                    a(href='codes.html') Short Codes
+        li
+            a(href='portfolio.html') Portfolio
+        li
+            a(href='contact.html') 我们
+    .clearfix

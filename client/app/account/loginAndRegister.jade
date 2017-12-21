@@ -1,0 +1,61 @@
+.login-container
+    .banner-overlay-agileinfo
+        // header
+        .header-w3l
+            h1 Frequent Sign In Form
+        // //header
+        // main
+        .main-w3layouts-agileinfo
+            // form-stars-here
+            .wthree-form(ng-if="LoginFn.toggle=='login'")
+                h2 登录
+                form
+                    .form-sub-w3
+                        input(placeholder='Email' ng-model="LoginFn.loginParams.email")
+                        .icon-w3
+                            i.fa.fa-user(aria-hidden='true')
+                    .form-sub-w3
+                        input(placeholder='Password' ng-model="LoginFn.loginParams.password")
+                        .icon-w3
+                            i.fa.fa-unlock-alt(aria-hidden='true')
+                    p.forgot-w3ls.pointer
+                        | 忘记密码?
+                        a(href='#')   找回
+                    p.forgot-w3ls1.pointer
+                        | 新用户?
+                        a(ng-click="LoginFn.toggle='register'")   注册
+                    .clear
+                    .submit-agileits
+                        button(ng-click="LoginFn.login()") 登录
+            .wthree-form(ng-if="LoginFn.toggle=='register'")
+                h2 注册
+                form
+                    .form-sub-w3
+                        input(type='email', placeholder='Email' ng-model="LoginFn.registerParams.email")
+                        .icon-w3
+                            i.fa.fa-user(aria-hidden='true')
+                    .form-sub-w3
+                        input(type='userName', placeholder='Email' ng-model="LoginFn.registerParams.userName")
+                        .icon-w3
+                            i.fa.fa-user(aria-hidden='true')
+                    .form-sub-w3
+                        input(type='password', placeholder='Password' ng-model="LoginFn.registerParams.password")
+                        .icon-w3
+                            i.fa.fa-unlock-alt(aria-hidden='true')
+                    p.forgot-w3ls.pointer
+                        |  忘记密码?
+                        a(href='#')   找回
+                    p.forgot-w3ls1.pointer
+                        | 已有账号?
+                        a(ng-click="LoginFn.toggle='login'")   登录
+                    .clear
+                    .submit-agileits
+                        button(type='submit' ng-click="LoginFn.register()") 注册
+            // //form-ends-here
+        // //main
+        // footer
+        .footer
+            p
+                | © 2017 Frequent Sign In Form. All rights reserved | Design by
+                a(href='http://w3layouts.com') W3layouts
+        // //footer

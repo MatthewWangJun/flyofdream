@@ -9,22 +9,10 @@ angular.module('FlyWebApp')
                 // parent: 'base',
                 views : {
                     'root': {
-                        templateUrl: 'app/account/login.html',
+                        templateUrl: 'app/account/loginAndRegister.html',
                         controller : 'LoginCtrl'
                     }
                 }
 
             })
-            .state('register', {
-                url   : '/register',
-                access: {requiredLogin: false},
-                // parent: 'base',
-                views : {
-                    'root': {
-                        templateUrl: 'app/account/register.html',
-                        controller : 'RegisterCtrl'
-                    }
-                }
-            })
-
     });

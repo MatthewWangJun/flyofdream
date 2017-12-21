@@ -1,38 +1,51 @@
 'use strict';
 
-angular.module('FlyWebApp.auth')
+angular.module('FlyWebApp')
     .factory('AuthService', function ($rootScope, $http, $q, AccountService, localStorageService) {
 
         var AuthService = {
             setUser: function (user) {
-                if (!user.avatar || user.avatar == '' || user.avatar == 'null') {
-                    user.avatar = '../assets/images/default_profile02.jpg';
+                // if (!user.avatar || user.avatar == '' || user.avatar == 'null') {
+                //     user.avatar = '../assets/images/default_profile02.jpg';
+                // }
+                // localStorageService.set('user', user);
+                // localStorageService.bind($rootScope, 'user');
+                var domain = $window.document.domain.split('.').reverse()[1];
+                ////console.log(domain);
+                if (domain) {
+                    Cookies.set('user', user, {domain: '.' + domain + '.com'});
+                    Cookies.set('authorize', true, {domain: '.' + domain + '.com'});
+                } else {
+                    Cookies.set('user', user);
+                    Cookies.set('authorize', true);
                 }
-                localStorageService.set('user', user);
-                localStorageService.bind($rootScope, 'user');
+                $rootScope.user = user;
             },
             clearUser: function () {
+                var domain = $window.document.domain.split('.').reverse()[1];
+                if (domain) {
+                    Cookies.remove('user', {domain: '.' + domain + '.com'});
+                    Cookies.remove('authorize', {domain: '.' + domain + '.com'});
+                } else {
+                    Cookies.remove('user');
+                    Cookies.remove('authorize');
+                }
                 $rootScope.user = undefined;
-                localStorageService.remove('user');
-                localStorageService.cookie.remove('authorize');
             },
             getUser: function () {
-                var _user = localStorageService.get('user');
-                // 新旧接口过渡使用此方法解决新旧接口同属性字段名不同的问题。
-                _user.organId = _user.organId || _user.orgId;
-                return _user;
+                return Cookies.getJSON('user');
             },
             login: function (params) {
                 var deferred = $q.defer();
-                AccountService.login(params)
-                    .success(function (user) {
+                AccountService.login(params).$promise
+                    .then(function (user) {
                         AuthService.setUser(user);
                         localStorageService.cookie.set('authorize','true');
                         deferred.resolve(user);
                         return user;
 
                     })
-                    .error(function (err) {
+                    .catch(function (err) {
                         deferred.reject(err);
                     });
                 return deferred.promise;

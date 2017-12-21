@@ -49,7 +49,7 @@ module.exports = function (app) {
             maxAge: 2592000000,
             domain: config.cache.session.domain
         },
-        name: 'dledu.sid',
+        name: 'flyofdream.sid',
         resave: true,
         saveUninitialized: true
     }));

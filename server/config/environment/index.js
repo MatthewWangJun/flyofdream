@@ -22,8 +22,8 @@ var all = {
 
     // Secret for session, you will want to change this and make it an environment variable
     secrets: {
-        session: 'dledu-web-secret',
-        client_id: 'dleduApp'
+        session: 'flyofdream-web-secret',
+        client_id: 'flyofdream'
     },
 
     mongo: {
@@ -69,8 +69,8 @@ var all = {
             port: process.env.SESSION_REDIS_PORT || 6379,
             pass: process.env.SESSION_REDIS_PASS || '',
             db: process.env.SESSION_REDIS_DB || 0,
-            prefix: process.env.SESSION_REDIS_PREFIX || 'dledu_web_session',
-            domain: process.env.SESSION_DOMAIN || 'aizhixin.com'
+            prefix: process.env.SESSION_REDIS_PREFIX || 'flyofdream_web_session',
+            domain: process.env.SESSION_DOMAIN || 'flyofdream.com'
         }
     }
 };

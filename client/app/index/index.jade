@@ -1,324 +1,324 @@
-// banner
-.banner-w3layouts
-    .flexslider
-        ul.slides
-            li
-                .banner-img1
-            li
-                .banner-img2
-    // FlexSlider
-    script(defer='', src='../../assets/js/jquery.flexslider.js')
-    script(type='text/javascript').
+.index-container
+    .banner-w3layouts
+        .flexslider
+            ul.slides
+                li
+                    .banner-img1
+                li
+                    .banner-img2
+        // FlexSlider
+        script(defer='', src='../../assets/js/jquery.flexslider.js')
+        script(type='text/javascript').
 
-    // //FlexSlider
-    // banner-info
-    .banner-agileinfo
+        // //FlexSlider
+        // banner-info
+        .banner-agileinfo
+            .container
+                .w3header
+                    // header
+                    nav.navbar.navbar-default
+                        .navbar-header
+                            button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                                span.sr-only Toggle navigation
+                                span.icon-bar
+                                span.icon-bar
+                                span.icon-bar
+                            h1
+                                a(href='index.html') 琪安
+                        // navbar-header
+                        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                            form.navbar-right.w3ls-search(action='#', method='post')
+                                input(type='search', name='Search', placeholder='Enter your text...', required='')
+                                button.btn.btn-default(type='submit', aria-label='Left Align')
+                                    span.glyphicon.glyphicon-search
+                            ul.nav.navbar-nav.navbar-right
+                                li
+                                    a.active(href='index.html') 首页
+                                li
+                                    a(href='about.html') 关于
+                                li
+                                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                                        | Pages
+                                        span.caret
+                                    ul.dropdown-menu
+                                        li
+                                            a(href='icons.html') Web Icons
+                                        li
+                                            a(href='codes.html') Short Codes
+                                li
+                                    a(href='portfolio.html') Portfolio
+                                li
+                                    a(href='contact.html') 我们
+                            .clearfix
+                // //header
+                .banner-w3text
+                    h4 Curabitur sagittis ultrices
+                    h2 Quisque nunc quisenim ullam
+                    h5 Donec massa ipsum imperdiet
+                    a.w3btn(href='single.html')
+                        span Read More
+            // //banner-info
+    // //banner
+    // welcome
+    .welcome
         .container
-            .w3header
-                // header
-                nav.navbar.navbar-default
-                    .navbar-header
-                        button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
-                            span.sr-only Toggle navigation
-                            span.icon-bar
-                            span.icon-bar
-                            span.icon-bar
-                        h1
-                            a(href='index.html') 琪安
-                    // navbar-header
-                    #bs-example-navbar-collapse-1.collapse.navbar-collapse
-                        form.navbar-right.w3ls-search(action='#', method='post')
-                            input(type='search', name='Search', placeholder='Enter your text...', required='')
-                            button.btn.btn-default(type='submit', aria-label='Left Align')
-                                span.glyphicon.glyphicon-search
-                        ul.nav.navbar-nav.navbar-right
-                            li
-                                a.active(href='index.html') 首页
-                            li
-                                a(href='about.html') 关于
-                            li
-                                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
-                                    | Pages
-                                    span.caret
-                                ul.dropdown-menu
-                                    li
-                                        a(href='icons.html') Web Icons
-                                    li
-                                        a(href='codes.html') Short Codes
-                            li
-                                a(href='portfolio.html') Portfolio
-                            li
-                                a(href='contact.html') 我们
-                        .clearfix
-            // //header
-            .banner-w3text
-                h4 Curabitur sagittis ultrices
-                h2 Quisque nunc quisenim ullam
-                h5 Donec massa ipsum imperdiet
-                a.w3btn(href='single.html')
-                    span Read More
-        // //banner-info
-// //banner
-// welcome
-.welcome
-    .container
-        .agileits-title
-            h3 Welcome To Focus
+            .agileits-title
+                h3 Welcome To Focus
+                p
+                    | Mauris rutrum turpis eget tincidunt eleifend vestibulum condimentum mollis tellus eu magna laoreet.
+            .welcome-agileinfo
+                .col-md-4.col-xs-6.welcome-grid.agileits-w3layouts
+                    .col-xs-2.welcome-grid-left
+                        span.glyphicon.glyphicon-briefcase(aria-hidden='true')
+                    .col-xs-10.welcome-grid-right
+                        h4 tiamet pharetra nunc
+                        p Itaque earum rerum hic tenetur a sapiente delectus maiores alias phasellus
+                    .clearfix
+                .col-md-4.col-xs-6.welcome-grid.agileits-w3layouts
+                    .col-xs-2.welcome-grid-left
+                        span.glyphicon.glyphicon-heart(aria-hidden='true')
+                    .col-xs-10.welcome-grid-right
+                        h4 Etiam pharetra
+                        p Sapiente delectus reiciendis maiores alias phasellus mattis tellus dictum
+                    .clearfix
+                .col-md-4.col-xs-6.welcome-grid.agileits-w3layouts
+                    .col-xs-2.welcome-grid-left
+                        span.glyphicon.glyphicon-check(aria-hidden='true')
+                    .col-xs-10.welcome-grid-right
+                        h4 pharetra erat
+                        p phasellus mattis tellus eget tellus dictum justo scelerisque eget sapiente
+                    .clearfix
+                .col-md-4.col-xs-6.welcome-grid.welcome-grid-bottom
+                    .col-xs-2.welcome-grid-left
+                        span.glyphicon.glyphicon-list-alt(aria-hidden='true')
+                    .col-xs-10.welcome-grid-right
+                        h4 erat et nunc
+                        p Maiores alias phasellus mattis tellus eget tellus dictum justo interdum
+                    .clearfix
+                .col-md-4.col-xs-6.welcome-grid.welcome-grid-bottom
+                    .col-xs-2.welcome-grid-left
+                        span.glyphicon.glyphicon-hourglass(aria-hidden='true')
+                    .col-xs-10.welcome-grid-right
+                        h4 tiamet pharetra nunc
+                        p Itaque earum rerum hic tenetur a sapiente delectus maiores alias phasellus
+                    .clearfix
+                .col-md-4.col-xs-6.welcome-grid.welcome-grid-bottom
+                    .col-xs-2.welcome-grid-left
+                        span.glyphicon.glyphicon-time(aria-hidden='true')
+                    .col-xs-10.welcome-grid-right
+                        h4 Etiam pharetra
+                        p Sapiente delectus reiciendis maiores alias phasellus mattis tellus dictum
+                    .clearfix
+                .clearfix
+    // //welcome
+    // about-slid
+    .w3about-slid.agileits-w3layouts
+        .container
+            .about-slid-info
+                h4 Lorem ipsum dolor sit amet consectetur
+                p
+                    | Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget.
+    // //about-slid
+    // skills
+    .skills.w3-agileits
+        .container
+            .skills-agileinfo
+                .col-md-6.skills-w3left
+                    h4 Our Services
+                    .bs-example.bs-example-tabs(role='tabpanel', data-example-id='togglable-tabs')
+                        ul#myTab.nav.nav-tabs(role='tablist')
+                            li.active(role='presentation')
+                                a#home-tab(href='#home', role='tab', data-toggle='tab', aria-controls='home', aria-expanded='true') Service1
+                            li(role='presentation')
+                                a#carl-tab(href='#carl', role='tab', data-toggle='tab', aria-controls='carl') Service2
+                            li(role='presentation')
+                                a#james-tab(href='#james', role='tab', data-toggle='tab', aria-controls='james') Service3
+                        #myTabContent.tab-content
+                            #home.tab-pane.fade.in.active(role='tabpanel', aria-labelledby='home-tab')
+                                .tabcontent-grids
+                                    p
+                                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. Nulla ornare purus nunc, ut dapibus leo sodales adipiscing.
+                            #carl.tab-pane.fade(role='tabpanel', aria-labelledby='carl-tab')
+                                .tabcontent-grids
+                                    ul
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Sed tincidunt lorem sed
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Excepteur sint occaecat
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Duis aute irure dolor in
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Sed tincidunt lorem sed
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Excepteur sint occaecat
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Duis aute irure dolor in
+                            #james.tab-pane.fade(role='tabpanel', aria-labelledby='james-tab')
+                                .tabcontent-grids
+                                    ul
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Sed tincidunt lorem sed
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Excepteur sint occaecat
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Duis aute irure dolor in
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Sed tincidunt lorem sed
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Excepteur sint occaecat
+                                        li
+                                            span.glyphicon.glyphicon-menu-right
+                                            |  Duis aute irure dolor in
+                h4 Our Specialization
+                .col-md-6.skills-w3right.bar_group
+                    .bar_group__bar.thin(label='Lorem ipsum    80%', value='200')
+                    .bar_group__bar.thin(label='Quis nostrud    100%', value='250')
+                    .bar_group__bar.thin(label='Sed do eiusmod    72%', value='180')
+                    .bar_group__bar.thin(label='Ut enim adnim    88%', value='220')
+                // bar-js
+                script(src='../../assets/js/bars.js')
+                // bar-js
+                .clearfix
+    // //skills
+    // news
+    .news-w3layouts
+        .container
+            .agileits-title
+                h3 News & Events
+                p
+                    | Mauris rutrum turpis eget tincidunt eleifend vestibulum condimentum mollis tellus eu magna laoreet.
+            .news-agileinfo.w3-agileits
+                .col-md-4.news-w3lgrids
+                    h4
+                        span 13/16
+                        | December
+                    p
+                        | Cras justo odioda pibus facilisis dignissimos Sed ut perspiciatis unde omnis iste natus error sit voluptatem inventore veritatis
+                .col-md-4.news-w3lgrids
+                    h4
+                        span 20/16
+                        | November
+                    p
+                        | Sed ut perspiciatis unde omnis iste natus error sit voluptatem inventore veritatis Cras justo odioda pibus facilisis dignissimos
+                .col-md-4.news-w3lgrids
+                    h4
+                        span 05/16
+                        | November
+                    p
+                        | Facilisis dignissimos Sed ut perspiciatis unde omnis iste natus error sit voluptatem inventore veritatis cras justo odioda pibus
+                .clearfix
+    // //news
+    // subscribe
+    .subscribe.wthree-sub
+        .container
+            h4 Subscribe to get monthly newsletter
+            form(action='#', method='post')
+                input(type='email', name='email', placeholder='Enter your Email...', required='')
+                input(type='submit', value='Subscribe')
+                .clearfix
             p
-                | Mauris rutrum turpis eget tincidunt eleifend vestibulum condimentum mollis tellus eu magna laoreet.
-        .welcome-agileinfo
-            .col-md-4.col-xs-6.welcome-grid.agileits-w3layouts
-                .col-xs-2.welcome-grid-left
-                    span.glyphicon.glyphicon-briefcase(aria-hidden='true')
-                .col-xs-10.welcome-grid-right
-                    h4 tiamet pharetra nunc
-                    p Itaque earum rerum hic tenetur a sapiente delectus maiores alias phasellus
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit lacus ornare
+                a(href='') Privacy policy
+                | .
+    // //subscribe
+    // footer start here
+    .agile-footer
+        .container
+            .footer-agileinfo
+                .col-md-4.col-sm-6.footer-wthree-grid
+                    h6
+                        a(href='index.html') 琪安
+                    p
+                        | Aenean vitae metus sit amet purus sodales blandit. Nullam ut dolor eu urna viverra semper. Mauris est odio, laoreet laoreet sapien non bibendum nulla.
+                .col-md-3.col-sm-6.footer-wthree-grid
+                    h3 Navigation
+                    ul
+                        li
+                            a(href='index.html') Home
+                        li
+                            a(href='about.html') About
+                        li
+                            a(href='portfolio.html') Portfolio
+                        li
+                            a(href='contact.html') Contact
+                .col-md-2.col-sm-6.footer-wthree-grid
+                    h3 Archives
+                    ul
+                        li
+                            a(href='single.html') Nov 2016
+                        li
+                            a(href='single.html') Oct 2016
+                        li
+                            a(href='single.html') Sept 2016
+                        li
+                            a(href='single.html') Aug 2016
+                .col-md-3.col-sm-6.footer-wthree-grid.w3social
+                    h3 Social Media
+                    ul
+                        li
+                            a(href='#')
+                                i.fa.fa-google-plus
+                                |  Google-plus
+                        li
+                            a(href='#')
+                                i.fa.fa-facebook
+                                |  Facebook
+                        li
+                            a(href='#')
+                                i.fa.fa-twitter
+                                |  Twitter
+                        li
+                            a(href='#')
+                                i.fa.fa-dribbble
+                                |  Dribbble
                 .clearfix
-            .col-md-4.col-xs-6.welcome-grid.agileits-w3layouts
-                .col-xs-2.welcome-grid-left
-                    span.glyphicon.glyphicon-heart(aria-hidden='true')
-                .col-xs-10.welcome-grid-right
-                    h4 Etiam pharetra
-                    p Sapiente delectus reiciendis maiores alias phasellus mattis tellus dictum
-                .clearfix
-            .col-md-4.col-xs-6.welcome-grid.agileits-w3layouts
-                .col-xs-2.welcome-grid-left
-                    span.glyphicon.glyphicon-check(aria-hidden='true')
-                .col-xs-10.welcome-grid-right
-                    h4 pharetra erat
-                    p phasellus mattis tellus eget tellus dictum justo scelerisque eget sapiente
-                .clearfix
-            .col-md-4.col-xs-6.welcome-grid.welcome-grid-bottom
-                .col-xs-2.welcome-grid-left
-                    span.glyphicon.glyphicon-list-alt(aria-hidden='true')
-                .col-xs-10.welcome-grid-right
-                    h4 erat et nunc
-                    p Maiores alias phasellus mattis tellus eget tellus dictum justo interdum
-                .clearfix
-            .col-md-4.col-xs-6.welcome-grid.welcome-grid-bottom
-                .col-xs-2.welcome-grid-left
-                    span.glyphicon.glyphicon-hourglass(aria-hidden='true')
-                .col-xs-10.welcome-grid-right
-                    h4 tiamet pharetra nunc
-                    p Itaque earum rerum hic tenetur a sapiente delectus maiores alias phasellus
-                .clearfix
-            .col-md-4.col-xs-6.welcome-grid.welcome-grid-bottom
-                .col-xs-2.welcome-grid-left
-                    span.glyphicon.glyphicon-time(aria-hidden='true')
-                .col-xs-10.welcome-grid-right
-                    h4 Etiam pharetra
-                    p Sapiente delectus reiciendis maiores alias phasellus mattis tellus dictum
-                .clearfix
-            .clearfix
-// //welcome
-// about-slid
-.w3about-slid.agileits-w3layouts
-    .container
-        .about-slid-info
-            h4 Lorem ipsum dolor sit amet consectetur
+    // //footer end here
+    // copy rights start here
+    .copyw3-agile
+        .container
             p
-                | Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget.
-// //about-slid
-// skills
-.skills.w3-agileits
-    .container
-        .skills-agileinfo
-            .col-md-6.skills-w3left
-                h4 Our Services
-                .bs-example.bs-example-tabs(role='tabpanel', data-example-id='togglable-tabs')
-                    ul#myTab.nav.nav-tabs(role='tablist')
-                        li.active(role='presentation')
-                            a#home-tab(href='#home', role='tab', data-toggle='tab', aria-controls='home', aria-expanded='true') Service1
-                        li(role='presentation')
-                            a#carl-tab(href='#carl', role='tab', data-toggle='tab', aria-controls='carl') Service2
-                        li(role='presentation')
-                            a#james-tab(href='#james', role='tab', data-toggle='tab', aria-controls='james') Service3
-                    #myTabContent.tab-content
-                        #home.tab-pane.fade.in.active(role='tabpanel', aria-labelledby='home-tab')
-                            .tabcontent-grids
-                                p
-                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. Nulla ornare purus nunc, ut dapibus leo sodales adipiscing.
-                        #carl.tab-pane.fade(role='tabpanel', aria-labelledby='carl-tab')
-                            .tabcontent-grids
-                                ul
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Sed tincidunt lorem sed
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Excepteur sint occaecat
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Duis aute irure dolor in
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Sed tincidunt lorem sed
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Excepteur sint occaecat
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Duis aute irure dolor in
-                        #james.tab-pane.fade(role='tabpanel', aria-labelledby='james-tab')
-                            .tabcontent-grids
-                                ul
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Sed tincidunt lorem sed
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Excepteur sint occaecat
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Duis aute irure dolor in
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Sed tincidunt lorem sed
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Excepteur sint occaecat
-                                    li
-                                        span.glyphicon.glyphicon-menu-right
-                                        |  Duis aute irure dolor in
-            h4 Our Specialization
-            .col-md-6.skills-w3right.bar_group
-                .bar_group__bar.thin(label='Lorem ipsum    80%', value='200')
-                .bar_group__bar.thin(label='Quis nostrud    100%', value='250')
-                .bar_group__bar.thin(label='Sed do eiusmod    72%', value='180')
-                .bar_group__bar.thin(label='Ut enim adnim    88%', value='220')
-            // bar-js
-            script(src='../../assets/js/bars.js')
-            // bar-js
-            .clearfix
-// //skills
-// news
-.news-w3layouts
-    .container
-        .agileits-title
-            h3 News & Events
-            p
-                | Mauris rutrum turpis eget tincidunt eleifend vestibulum condimentum mollis tellus eu magna laoreet.
-        .news-agileinfo.w3-agileits
-            .col-md-4.news-w3lgrids
-                h4
-                    span 13/16
-                    | December
-                p
-                    | Cras justo odioda pibus facilisis dignissimos Sed ut perspiciatis unde omnis iste natus error sit voluptatem inventore veritatis
-            .col-md-4.news-w3lgrids
-                h4
-                    span 20/16
-                    | November
-                p
-                    | Sed ut perspiciatis unde omnis iste natus error sit voluptatem inventore veritatis Cras justo odioda pibus facilisis dignissimos
-            .col-md-4.news-w3lgrids
-                h4
-                    span 05/16
-                    | November
-                p
-                    | Facilisis dignissimos Sed ut perspiciatis unde omnis iste natus error sit voluptatem inventore veritatis cras justo odioda pibus
-            .clearfix
-// //news
-// subscribe
-.subscribe.wthree-sub
-    .container
-        h4 Subscribe to get monthly newsletter
-        form(action='#', method='post')
-            input(type='email', name='email', placeholder='Enter your Email...', required='')
-            input(type='submit', value='Subscribe')
-            .clearfix
-        p
-            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit lacus ornare
-            a(href='') Privacy policy
-            | .
-// //subscribe
-// footer start here
-.agile-footer
-    .container
-        .footer-agileinfo
-            .col-md-4.col-sm-6.footer-wthree-grid
-                h6
-                    a(href='index.html') 琪安
-                p
-                    | Aenean vitae metus sit amet purus sodales blandit. Nullam ut dolor eu urna viverra semper. Mauris est odio, laoreet laoreet sapien non bibendum nulla.
-            .col-md-3.col-sm-6.footer-wthree-grid
-                h3 Navigation
-                ul
-                    li
-                        a(href='index.html') Home
-                    li
-                        a(href='about.html') About
-                    li
-                        a(href='portfolio.html') Portfolio
-                    li
-                        a(href='contact.html') Contact
-            .col-md-2.col-sm-6.footer-wthree-grid
-                h3 Archives
-                ul
-                    li
-                        a(href='single.html') Nov 2016
-                    li
-                        a(href='single.html') Oct 2016
-                    li
-                        a(href='single.html') Sept 2016
-                    li
-                        a(href='single.html') Aug 2016
-            .col-md-3.col-sm-6.footer-wthree-grid.w3social
-                h3 Social Media
-                ul
-                    li
-                        a(href='#')
-                            i.fa.fa-google-plus
-                            |  Google-plus
-                    li
-                        a(href='#')
-                            i.fa.fa-facebook
-                            |  Facebook
-                    li
-                        a(href='#')
-                            i.fa.fa-twitter
-                            |  Twitter
-                    li
-                        a(href='#')
-                            i.fa.fa-dribbble
-                            |  Dribbble
-            .clearfix
-// //footer end here
-// copy rights start here
-.copyw3-agile
-    .container
-        p
-            | © 2017 Focus. All Rights Reserved | Design by
-            a(href='http://w3layouts.com/', target='_blank') W3layouts
-// //copy right end here
-script(src='../../assets/js/SmoothScroll.min.js')
-// start-smooth-scrolling
-script(type='text/javascript', src='../../assets/js/move-top.js')
-script(type='text/javascript', src='../../assets/js/easing.js')
-script(type='text/javascript').
-    jQuery(document).ready(function($) {
-        $(".scroll").click(function(event){
-            event.preventDefault();
-            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                | © 2017 Focus. All Rights Reserved | Design by
+                a(href='http://w3layouts.com/', target='_blank') W3layouts
+    // //copy right end here
+    script(src='../../assets/js/SmoothScroll.min.js')
+    // start-smooth-scrolling
+    script(type='text/javascript', src='../../assets/js/move-top.js')
+    script(type='text/javascript', src='../../assets/js/easing.js')
+    script(type='text/javascript').
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
         });
-    });
-// //end-smooth-scrolling
-// smooth-scrolling-of-move-up
-script(type='text/javascript').
-    $(document).ready(function() {
-        /*
-        var defaults = {
-        containerID: 'toTop', // fading element id
-        containerHoverID: 'toTopHover', // fading element hover id
-        scrollSpeed: 1200,
-        easingType: 'linear'
-        };
-        */
-        $().UItoTop({ easingType: 'easeOutQuart' });
-    });
-// //smooth-scrolling-of-move-up
-//
-  Bootstrap core JavaScript
-  ==================================================
-// Placed at the end of the document so the pages load faster
-script(src='../../assets/js/bootstrap.js')
+    // //end-smooth-scrolling
+    // smooth-scrolling-of-move-up
+    script(type='text/javascript').
+        $(document).ready(function() {
+            /*
+            var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+            };
+            */
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+    // //smooth-scrolling-of-move-up
+    //
+      Bootstrap core JavaScript
+      ==================================================
+    // Placed at the end of the document so the pages load faster
+    script(src='../../assets/js/bootstrap.js')

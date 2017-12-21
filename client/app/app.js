@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('FlyWebApp', [
-    'ngSanitize',
+    //'ngSanitize',
     'ngResource',
     'ui.router',
     'ngAnimate',
@@ -9,8 +9,7 @@ angular.module('FlyWebApp', [
     //'dleduWebAppComponents',
     'FlyWebApp.service',
     'dlFilters',
-    'ngDialog',
-    'azx.common'
+    'ngDialog'
 ])
     .factory('httpInterceptor', ['$q', '$injector', function ($q, $injector) {
         var _location = $injector.get('$location');
@@ -82,7 +81,7 @@ angular.module('FlyWebApp', [
         }
 
         //localStorageService本地存储配置
-        localStorageServiceProvider.setPrefix('aizhixin').setStorageType('localStorage').setNotify(true, true);
+        localStorageServiceProvider.setPrefix('flyofdream').setStorageType('localStorage').setNotify(true, true);
 
         //入口路由配置
         $urlRouterProvider

@@ -6,6 +6,7 @@ var crypto=require('crypto');
 var UserSchema = new Schema({
     email: {type: String},                    //用户账号
     password: {type: String},                       //密码
+    userName:{type: String},
     salt: String
 });
 
